@@ -1,12 +1,12 @@
+import torch
 import torchaudio
 
-from dpslm.dpslm import DPSLMPipeline
-
-pipeline = DPSLMPipeline(
-    layer_idx=11,
-    K=500,
-    lmbda=7000,
-).cuda()
+pipeline = torch.hub.load(
+    "nicolvisser/dp-slm",
+    "dpslm",
+    K=100,
+    lmbda=0,
+)
 pipeline.eval()
 
 wav, sr = torchaudio.load("sample.flac")

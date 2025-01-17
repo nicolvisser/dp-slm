@@ -1,3 +1,13 @@
+dependencies = [
+    "torch",
+    "torchaudio",
+    "numpy",
+    "k2",
+    "simple-parsing",
+    "xformers",
+    "tqdm",
+]
+
 import torch
 
 from dpslm.dpslm import DPSLMPipeline
