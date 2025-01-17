@@ -9,6 +9,13 @@
 
 The `k2` FST library is required to run the optimized DPDP Quantization algorithm. `k2` is not that easy to install with CUDA support. I think `poetry` is the 2nd best way to manage dependencies when using `k2` in your project. The best would be to use `docker`. Below are the instructions to install the dependencies using `poetry`.
 
+### Clone the repository
+
+```
+git clone https://github.com/nicolvisser/dp-slm.git
+cd dp-slm
+```
+
 ### Install CUDA toolkit
 
 On Ubuntu:
