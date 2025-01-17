@@ -1,0 +1,34 @@
+[tool.poetry]
+name = "dpslm"
+version = "0.1.0"
+description = "A spoken language modeling library with duration-penalized units"
+authors = ["nicolvisser <nicolvisser@yahoo.com>"]
+readme = "README.md"
+
+[[tool.poetry.source]]
+name = "torch"
+url = "https://download.pytorch.org/whl/"
+priority = "explicit"
+
+[[tool.poetry.source]]
+name = "k2"
+url = "https://k2-fsa.github.io/k2/cuda.html"
+priority = "explicit"
+
+
+[tool.poetry.dependencies]
+python = "^3.12"
+torch = { version = "2.5.1+cu124", source = "torch" }
+k2 = { version = "1.24.4.dev20241127+cuda12.4.torch2.5.1", source = "k2" }
+numpy = "^2.2.1"
+torchaudio = "^2.5.1"
+soundfile = "^0.13.0"
+ipykernel = "^6.29.5"
+simple-parsing = "^0.1.6"
+xformers = "^0.0.29.post1"
+tqdm = "^4.67.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
