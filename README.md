@@ -1,7 +1,9 @@
 
 # DP-SLM
 
-## Pipeline
+A pipeline for spoken language modeling using duration-penalized discrete units.
+
+## The pipeline
 
 ![Pipeline](dp-slm-pipeline.svg)
 
