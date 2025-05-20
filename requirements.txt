@@ -1,0 +1,7 @@
+torch
+torchaudio
+torchvision
+xformers
+simple-parsing
+tqdm
+requests
