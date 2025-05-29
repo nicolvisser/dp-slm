@@ -1,7 +1,8 @@
 torch
-torchaudio
 torchvision
+torchaudio
+soundfile
 xformers
 simple-parsing
-tqdm
 requests
+tqdm

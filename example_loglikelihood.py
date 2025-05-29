@@ -1,6 +1,5 @@
 import torch
 import torchaudio
-from IPython.display import Audio, display
 
 k = 500
 lmbda = 4500
@@ -37,7 +36,7 @@ ulm.to("cuda")
 
 
 with torch.inference_mode():
-    for wav_path in ["manufacture.wav", "manufelture.wav"]:
+    for wav_path in ["data/manufacture.wav", "data/manufelture.wav"]:
         # load your audio
         wav, sr = torchaudio.load(wav_path)
         # extract features
@@ -50,5 +49,5 @@ with torch.inference_mode():
         ulm_input = ulm_tokenizer.encode(units_deduped.tolist()).cuda()
         # compute log likelihood
         ulm_ll = ulm.loglikelihood(ulm_input)
-        
+
         print(f"{wav_path}: {ulm_ll}")
