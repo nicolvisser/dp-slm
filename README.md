@@ -179,7 +179,7 @@ You will find that there are many mispronunciations in the resynthesized output 
 
 \* For this figure, we used greedy sampling during acoustic modelling, i.e., `ellav.generate(..., temperature=1.0, top_p=0.0)`
 
-You can listen to these samples [https://dp-slm.netlify.app/](here).
+You can listen to these samples [here](https://dp-slm.netlify.app/).
 
 # Citation
 
