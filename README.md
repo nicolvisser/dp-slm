@@ -6,7 +6,7 @@ Official repository for [Spoken Language Modeling with Duration-Penalized Self-S
 
 Each component in the system can be found in one of the following repositories:
 
-- [WavLM Encoder](https://github.com/nicolvisser/WavLM-codebooks)
+- [WavLM Encoder](https://github.com/nicolvisser/WavLM-codebooks) (incl. $K$-means codebooks)
 - [DPDP Quantizer](https://github.com/nicolvisser/dpdp) or [DP-WFST Quantizer](https://github.com/nicolvisser/dp-wfst)
 - [Unit Language Model](https://github.com/nicolvisser/Mistral-ULM)
 - [ELLA-V Acoustic Model](https://github.com/nicolvisser/ELLA-V)
