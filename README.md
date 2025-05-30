@@ -1,6 +1,6 @@
 # DP-SLM
 
-Official repository for [Spoken Language Modeling with Duration-Penalized Self-Supervised Units](https://arxiv.org/pdf/2505.23494).
+Official repository for [Spoken Language Modeling with Duration-Penalized Self-Supervised Units](https://arxiv.org/abs/2505.23494).
 
 ![DP-SLM pipeline](pipeline.svg)
 
