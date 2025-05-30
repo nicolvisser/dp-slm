@@ -1,6 +1,6 @@
 # DP-SLM
 
-Official repository for [Spoken Language Modeling with Duration-Penalized Self-Supervised Units](https://github.com/nicolvisser/dp-slm) (arxiv link will be added soon).
+Official repository for [Spoken Language Modeling with Duration-Penalized Self-Supervised Units](https://arxiv.org/pdf/2505.23494).
 
 ![DP-SLM pipeline](pipeline.svg)
 
@@ -177,11 +177,13 @@ You will find that there are many mispronunciations in the resynthesized output 
 
 ![Word error rates against bitrate](wer_vs_bitrate.svg)
 
-\* For this figure we used greedy sampling during acoustic modelling, i.e., `ellav.generate(..., temperature=1.0, top_p=0.0)`
+\* For this figure, we used greedy sampling during acoustic modelling, i.e., `ellav.generate(..., temperature=1.0, top_p=0.0)`
+
+You can listen to these samples [https://dp-slm.netlify.app/](here).
 
 # Citation
 
-If you found our work helpful please consider citing our paper:
+If you found our work helpful, please consider citing our paper:
 
 ```
 @inproceedings{
